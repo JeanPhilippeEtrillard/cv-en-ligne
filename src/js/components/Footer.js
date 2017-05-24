@@ -16,11 +16,11 @@ export default class Footer extends React.Component {
 
     render() {
         const mailing = "mailto:" + this.state.mail;
-        return <footer className="page-footer z-depth-2">
-            <div className="footer-copyright">
+        return <footer className="page-footer z-depth-2 light-blue darken-1">
+            <div className="footer-copyright light-blue darken-2">
                 <div className="row">
                     <div className="col s10">
-                        © 2017 Jean-Philippe ETRILLARD [tous droits réservés]
+                        <i className="fa fa-copyright"></i> 2017 Jean-Philippe ETRILLARD [tous droits réservés]
                     </div>
                     <div className="col s2">
                         <ul className="right">
