@@ -4,11 +4,11 @@ let path    = require('path');
 
 module.exports = {
     context  : path.join(__dirname, "src"),
-    devtool  : debug ? "inline-sourcemap" : null,
+    devtool  : debug ? "inline-sourcemap" : false,
     devServer: {
         historyApiFallback: debug
     },
-    entry    : "./js/client.js",
+    entry    : __dirname + "/src/js/client.js",
     module   : {
         loaders: [
             {
@@ -23,12 +23,11 @@ module.exports = {
         ]
     },
     output   : {
-        path    : __dirname + "/src/",
+        path    : path.resolve(__dirname, "public"),
         filename: "client.min.js"
     },
     plugins  : debug ? [] : [
-        new webpack.optimize.DedupePlugin(),
-        new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({mangle: false, sourcemap: false}),
     ],
 };

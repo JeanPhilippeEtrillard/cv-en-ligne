@@ -10,7 +10,7 @@ class CVStore extends EventEmitter {
             {
                 icon   : "graduation-cap",
                 titre  : "Formations",
-                couleur: "blue",
+                couleur: "#e64a19",
                 items  : [
                     {
                         anneeDebut : 2010,
@@ -47,7 +47,7 @@ class CVStore extends EventEmitter {
             {
                 icon   : "briefcase",
                 titre  : "Expériences",
-                couleur: "green",
+                couleur: "#388e3c",
                 items  : [
                     {
                         anneeDebut : 2016,
@@ -92,7 +92,7 @@ class CVStore extends EventEmitter {
             }, {
                 icon   : "cogs",
                 titre  : "Compétences",
-                couleur: "black",
+                couleur: "#5e35b1",
                 skills : [
                     {
                         titre : "Langages de programmation",
@@ -260,7 +260,7 @@ class CVStore extends EventEmitter {
             }, {
                 icon   : "info",
                 titre  : "Centres d'intérêts",
-                couleur: "black",
+                couleur: "#263238",
                 infos  : [
                     "Pratique du piano pendant 6 ans", "Pratique du chant pendant plus de 10 ans actuellement chez Tinore y bassi à la MDA de Saint-herblain",
                     "Aviation", "Jeux vidéos"

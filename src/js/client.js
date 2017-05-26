@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./components/Layout";
 import createBrowserHistory from "history/createBrowserHistory";
-import {BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const history = createBrowserHistory()
 

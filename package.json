@@ -24,7 +24,8 @@
     "react-scripts": "0.9.2"
   },
   "scripts": {
-    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "dev": "webpack-dev-server --content-base public --inline --hot --config webpack.config.js",
+    "deploy": "webpack -p --config webpack.config.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
