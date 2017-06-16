@@ -11,6 +11,15 @@ export default class CVInfoComposent extends React.Component {
     render() {
         const {infos}       = this.props;
         const infoComposent = infos.map((info) => {
+            const {titre, url} = info;
+
+            if (titre) {
+                if (url) {
+                    return <li key={titre}><span className="cvItemCTitre">{titre}</span>
+                        <a href={url} className="cvItemCDescription" target="_blank">{url}</a>
+                    </li>;
+                }
+            }
             return <li key={info}>{info}</li>;
         });
         return <ul className="cvInfo browser-default">

@@ -91,7 +91,7 @@ class CVStore extends EventEmitter {
                 ]
             }, {
                 icon   : "cogs",
-                titre  : "Compétences",
+                titre  : "Compétences et Projets",
                 couleur: "#5e35b1",
                 skills : [
                     {
@@ -254,7 +254,11 @@ class CVStore extends EventEmitter {
                     },
                 ],
                 infos  : [
-                    "Anglais : Capable de lire un texte en Anglais, tenir une conversation. TOEIC 785"
+                    "Anglais : Capable de lire un texte en Anglais, tenir une conversation. TOEIC 785",
+                    {
+                        titre: 'CV-En-Ligne : ',
+                        url  : 'https://github.com/Filou911/cv-en-ligne'
+                    }
                 ]
 
             }, {
