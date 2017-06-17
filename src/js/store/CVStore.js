@@ -145,6 +145,10 @@ class CVStore extends EventEmitter {
                             {
                                 degCon     : 1,
                                 description: "AngularJS"
+                            },
+                            {
+                                degCon     : 1,
+                                description: "ExpressJS"
                             }
                         ]
                     },
