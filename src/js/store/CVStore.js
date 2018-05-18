@@ -91,8 +91,8 @@ class CVStore extends EventEmitter {
                 ]
             }, {
                 icon   : "cogs",
-                titre  : "Compétences et Projets",
-                couleur: "#5e35b1",
+                titre  : "Compétences",
+                couleur: "#3f51b5",
                 skills : [
                     {
                         titre : "Langages de programmation",
@@ -211,7 +211,7 @@ class CVStore extends EventEmitter {
                             },
                             {
                                 degCon     : 4,
-                                description: "Windows (XP, 7, 8, 10)"
+                                description: "Win (XP, 7, 8, 10)"
                             },
                             {
                                 degCon     : 2,
@@ -258,14 +258,32 @@ class CVStore extends EventEmitter {
                     },
                 ],
                 infos  : [
-                    "Anglais : Capable de lire un texte en Anglais, tenir une conversation. TOEIC 785",
-                    {
-                        titre: 'CV-En-Ligne : ',
-                        url  : 'https://github.com/Filou911/cv-en-ligne'
-                    }
+                    "Anglais : Capable de lire un texte en Anglais, tenir une conversation. TOEIC 785"
                 ]
 
-            }, {
+            },
+            {
+                icon   : "project-diagram",
+                titre  : "Projets Open",
+                couleur: "#03a9f4",
+                items  : [
+                    {
+                        titre: 'CV-En-Ligne',
+                        url  : 'https://github.com/Filou911/cv-en-ligne',
+                        description: "Projet perso opensource de CV réalisé faisant intervenir du ReactJS, du MaterializeCSS et du webpack."
+                    },
+                    {
+                        titre: 'FoodStorm-Front',
+                        url  : 'https://github.com/sleray/Foodstorm-front',
+                        description: "Description Front"
+                    },
+                    {
+                        titre: 'FoodStorm-Back',
+                        url  : 'https://github.com/sleray/Foodstorm-back',
+                        description: "Description Back"
+                    }]
+            },
+             {
                 icon   : "info",
                 titre  : "Centres d'intérêts",
                 couleur: "#263238",

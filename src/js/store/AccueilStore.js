@@ -9,7 +9,7 @@ class AccueilStore extends EventEmitter {
         this.image       = "moi.png";
         this.description = [
             {
-                titre      : "Jean-Philippe ETRILLARD : 27 ans Cadre dans le numérique",
+                titre      : "Jean-Philippe ETRILLARD : 29 ans Cadre dans le numérique",
                 sousTitre  : "Diplômé en ingénierie informatique",
                 paragraphes: [
                     "Après mon DUT et ma première année de cycle d'ingénieur à l'ISEN Brest, j'ai acquis des bases en développement " +

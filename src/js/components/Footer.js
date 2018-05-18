@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
             <div className="footer-copyright light-blue darken-2">
                 <div className="row">
                     <div className="col s10">
-                        <i className="fa fa-copyright"></i> 2017 Jean-Philippe ETRILLARD [tous droits réservés]
+                        <i className="fa fa-copyright"></i> 2018 Jean-Philippe ETRILLARD [tous droits réservés]
                     </div>
                     <div className="col s2">
                         <ul className="right">
@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
                                 <i className="fa fa-envelope"></i></a></li>
                             <li>
                                 <a href={this.state.linkedin} target="_blank">
-                                    <i className="fa fa-linkedin "></i></a></li>
+                                    <i className="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
