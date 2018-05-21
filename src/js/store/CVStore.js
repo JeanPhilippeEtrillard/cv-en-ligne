@@ -273,6 +273,10 @@ class CVStore extends EventEmitter {
                         description: "Projet perso opensource de CV réalisé faisant intervenir du ReactJS, du MaterializeCSS et du webpack."
                     },
                     {
+                        titre: 'FoodStorm',
+                        description: "Projet open source réalisé en collaboration avec trois collègues de travail. Ce projet conciste à répondre à la question \"Qu'allons nous manger ce soir ?\""
+                    },
+                    {
                         titre: 'FoodStorm-Front',
                         url  : 'https://github.com/sleray/Foodstorm-front',
                         description: "Description Front"

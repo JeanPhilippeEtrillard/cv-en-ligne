@@ -42,7 +42,7 @@ function ManagePeriode(props) {
 function ManageUrl(props) {
     const { url } = props;
     if (url != undefined) {
-        return <span>
+        return <span><br/>
             <a href={url} className="cvItemCDescription" target="_blank">{url}</a>
         </span>;
     }
