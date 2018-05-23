@@ -123,8 +123,16 @@ class CVStore extends EventEmitter {
                                 description: "HTML"
                             },
                             {
+                                degCon     : 2,
+                                description: "SpringBoot"
+                            },
+                            {
                                 degCon     : 3,
                                 description: "CSS"
+                            },
+                            {
+                                degCon     : 3,
+                                description: "BootStrap 4"
                             },
                             {
                                 degCon     : 3,
@@ -139,15 +147,15 @@ class CVStore extends EventEmitter {
                                 description: "React"
                             },
                             {
-                                degCon     : 2,
+                                degCon     : 0,
                                 description: "ASP.Net"
                             },
                             {
-                                degCon     : 1,
-                                description: "AngularJS"
+                                degCon     : 3,
+                                description: "Angular 5"
                             },
                             {
-                                degCon     : 1,
+                                degCon     : 0,
                                 description: "ExpressJS"
                             }
                         ]
@@ -225,13 +233,16 @@ class CVStore extends EventEmitter {
                             {
                                 degCon     : 4,
                                 description: "WAS"
+                            },{
+                                degCon     : 3,
+                                description: "VSCode"
                             },
                             {
-                                degCon     : 3,
+                                degCon     : 2,
                                 description: "VMWare ESX"
                             },
                             {
-                                degCon     : 3,
+                                degCon     : 2,
                                 description: "Dollar Universe"
                             },
                             {
@@ -247,11 +258,11 @@ class CVStore extends EventEmitter {
                                 description: "MQ Series"
                             },
                             {
-                                degCon     : 1,
+                                degCon     : 0,
                                 description: "ClearCase"
                             },
                             {
-                                degCon     : 1,
+                                degCon     : 0,
                                 description: "Veeam"
                             }
                         ]
@@ -264,27 +275,30 @@ class CVStore extends EventEmitter {
             },
             {
                 icon   : "project-diagram",
-                titre  : "Projets Open",
+                titre  : "Projets Open Source",
                 couleur: "#03a9f4",
                 items  : [
                     {
                         titre: 'CV-En-Ligne',
                         url  : 'https://github.com/Filou911/cv-en-ligne',
-                        description: "Projet perso opensource de CV réalisé faisant intervenir du ReactJS, du MaterializeCSS et du webpack."
+                        description: "Projet perso opensource de CV en ligne faisant intervenir du ReactJS, du MaterializeCSS et du webpack."
                     },
                     {
                         titre: 'FoodStorm',
-                        description: "Projet open source réalisé en collaboration avec trois collègues de travail. Ce projet conciste à répondre à la question \"Qu'allons nous manger ce soir ?\""
+                        description: "Projet open source de veille technologique réalisé en collaboration avec trois collègues de travail. Ce projet conciste à répondre à la question \"Qu'allons nous manger ce soir ?\"."
                     },
                     {
                         titre: 'FoodStorm-Front',
                         url  : 'https://github.com/sleray/Foodstorm-front',
-                        description: "Description Front"
+                        description: "La partie Front a été développée sous VSCode en utilisant Angular 5 et Boostrap 4." 
+                        +" J'ai participé à la structuration du projet à son lancement. J'ai eu en charge la partie authentification ainsi que le CRUD sur les utilisateurs de l'application."
                     },
                     {
                         titre: 'FoodStorm-Back',
                         url  : 'https://github.com/sleray/Foodstorm-back',
-                        description: "Description Back"
+                        description: "La partie Back a été développé sous Eclipse en utilisant Java 8, Tomcat 9, Sping Boot 2 et Hibernate pour communiquer avec une base de donnée postgreSQL."
+                        +" J'ai eu pour responsabilité la partie DevOps du projet. J'ai pu mettre en place un certificat SSL valide pour le navigateur avec Let's Encrypt."
+                        +" En intégrant dans la structure SpringBoot réalisé par mon collègue j'ai pu réalisé le CRUD des utilisateurs ainsi que toute la partie authenfication"
                     }]
             },
              {
@@ -292,7 +306,7 @@ class CVStore extends EventEmitter {
                 titre  : "Centres d'intérêts",
                 couleur: "#263238",
                 infos  : [
-                    "Pratique du piano pendant 6 ans", "Pratique du chant pendant plus de 10 ans actuellement chez Tinore y bassi à la MDA de Saint-herblain",
+                    "Pratique du piano pendant 6 ans", "Pratique du chant pendant plus de 15 ans actuellement au conservatoire de Nantes",
                     "Aviation", "Jeux vidéos"
                 ]
 
