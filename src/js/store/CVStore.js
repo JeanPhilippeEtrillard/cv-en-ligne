@@ -285,7 +285,7 @@ class CVStore extends EventEmitter {
                     },
                     {
                         titre: 'FoodStorm',
-                        description: "Projet open source de veille technologique réalisé en collaboration avec trois collègues de travail. Ce projet conciste à répondre à la question \"Qu'allons nous manger ce soir ?\"."
+                        description: "Projet open source de veille technologique réalisé en collaboration avec trois collègues de travail. Ce projet consiste à répondre à la question \"Qu'allons nous manger ce soir ?\"."
                     },
                     {
                         titre: 'FoodStorm-Front',
@@ -298,7 +298,7 @@ class CVStore extends EventEmitter {
                         url  : 'https://github.com/sleray/Foodstorm-back',
                         description: "La partie Back a été développé sous Eclipse en utilisant Java 8, Tomcat 9, Sping Boot 2 et Hibernate pour communiquer avec une base de donnée postgreSQL."
                         +" J'ai eu pour responsabilité la partie DevOps du projet. J'ai pu mettre en place un certificat SSL valide pour le navigateur avec Let's Encrypt."
-                        +" En intégrant dans la structure SpringBoot réalisé par mon collègue j'ai pu réalisé le CRUD des utilisateurs ainsi que toute la partie authenfication"
+                        +" En intégrant dans la structure SpringBoot réalisé par mon collègue j'ai pu réalisé le CRUD des utilisateurs ainsi que toute la partie authentification"
                     }]
             },
              {
