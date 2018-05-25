@@ -9,16 +9,13 @@ class AccueilStore extends EventEmitter {
         this.image       = "moi.png";
         this.description = [
             {
-                titre      : "Jean-Philippe ETRILLARD : 29 ans Cadre dans le numérique",
+                titre      : "Jean-Philippe ETRILLARD : 29 ans Référent technique",
                 sousTitre  : "Diplômé en ingénierie informatique",
                 paragraphes: [
-                    "Après mon DUT et ma première année de cycle d'ingénieur à l'ISEN Brest, j'ai acquis des bases en développement " +
-                    "ainsi qu'en organisation et méthodologie de travail.",
-                    "Mes deux dernières années de cycle Ingénieur m'ont permis de développer des compétences de management, " +
-                    "de méthodologie et de gestion de projets ainsi que d'approfondir mes connaissances en développement.",
-                    "Pendant mes études, j'ai réalisé des stages au sein de la TAN et de la société JES durant lesquels j'ai produit " +
-                    "des applications de gestion de temps. J'ai terminé mes études par de l'alternance chez Dassault Data Service, filiale de Dassault Système. " +
-                    "Où j'ai pu acquérir des compétences en administration système."
+                    "Après mon apprentissage au sein de Dassault Data Service, filiale de Dassault System, où j'ai acquis les bases de la vie en entreprise ainsi que des compétences en administration système." 
+                    +" J'ai été embauché chez Capgemini sur l'entité FSSBU.",
+                    "Depuis maintenant cinq ans chez Capgemini, au travers des différentes missions hétérogènes j'ai pu acquérir de nombreuses compétences techniques ainsi que forger mon rôle de référent technique.",
+                    "Je reste à l'écoute du marché en appliquant sur des projets personnelles ou professionnelles ce que j'ai appris en auto-formation."
 
                 ]
             },
