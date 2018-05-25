@@ -9,21 +9,13 @@ class AccueilStore extends EventEmitter {
         this.image       = "moi.png";
         this.description = [
             {
-                titre      : "Jean-Philippe ETRILLARD : 29 ans Référent technique",
-                sousTitre  : "Diplômé en ingénierie informatique",
+                titre      : "Jean-Philippe ETRILLARD",
+                sousTitre  : "Référent technique Java/JS. Bac+5, 6 ans d'xp",
                 paragraphes: [
-                    "Après mon apprentissage au sein de Dassault Data Service, filiale de Dassault System, où j'ai acquis les bases de la vie en entreprise ainsi que des compétences en administration système." 
-                    +" J'ai été embauché chez Capgemini sur l'entité FSSBU.",
-                    "Depuis maintenant cinq ans chez Capgemini, au travers des différentes missions hétérogènes j'ai pu acquérir de nombreuses compétences techniques ainsi que forger mon rôle de référent technique.",
-                    "Je reste à l'écoute du marché en appliquant sur des projets personnelles ou professionnelles ce que j'ai appris en auto-formation."
-
-                ]
-            },
-            {
-                titre      : "À propos de moi",
-                paragraphes: [
-                    "J'aime apprendre de nouvelles choses ce qui se traduit par de la recherche sur internet et de la mise en pratique de ces nouvelles connaissances. " +
-                    "J'apprécie également discuter afin d’échanger des points de vue et apprendre des autres."
+                    "Lors de mon apprentissage au sein de Dassault Data Service, filiale de Dassault System j'ai acquis des compétences en administration système.",
+                    "En 2013 j'ai intégré Cap Gemini pour m'orienter vers le développement. Grâce à plusieurs missions pour des clients grands comptes, j'ai pu monter en compétence et forger mon rôle de référent technique."
+                    +" Ma double compétence système / developpement me permet d'appliquer les bonnes pratiques DEVOPS sur les projets sur lesquels je suis référent.",
+                    "J'aime apprendre et échanger avec mes pairs. Ce qui se traduit par une participation à des projets open source, de la veille technologique et du e-learning."
 
                 ]
             }
