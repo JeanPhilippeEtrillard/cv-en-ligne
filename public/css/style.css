@@ -153,5 +153,14 @@ Accueil
     justify-content: space-between;
 }
 
-.star {
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    .divider {
+        height: 3px;
+    }
 }

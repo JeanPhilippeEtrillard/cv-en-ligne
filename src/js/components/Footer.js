@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
 
     render() {
         const mailing = "mailto:" + this.state.mail;
-        return <footer className="page-footer z-depth-2 light-blue darken-1">
+        return <footer className="page-footer z-depth-2 light-blue darken-1 no-print">
             <div className="footer-copyright light-blue darken-2">
                 <div className="row">
                     <div className="col s10">

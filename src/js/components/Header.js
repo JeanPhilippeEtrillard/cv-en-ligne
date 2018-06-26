@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default class Header extends React.Component {
     render() {
-        return <header>
+        return <header class="no-print">
             <nav>
                 <div class="nav-wrapper light-blue darken-2">
                     <ul id="nav-mobile" class="right">
