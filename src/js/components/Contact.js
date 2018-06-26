@@ -31,7 +31,7 @@ export default class Contact extends React.Component {
                                 <a href={mailing}>
                                     <i className="fa fa-envelope"></i> Mail</a>
                                 <a href={this.state.linkedin} target="_blank">
-                                    <i className="fa fa-linkedin "></i> Linked-In</a>
+                                    <i className="fab fa-linkedin "></i> Linked-In</a>
                             </div>
                         </div>
                     </div>

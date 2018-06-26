@@ -11,7 +11,11 @@ export default class CVSkillComposent extends React.Component {
 
     render() {
         const {titre, skills} = this.props;
-        const skillComposent  = skills.map((skill) => {
+        const skillComposent  = skills.filter(skill => {
+            return skill.degCon > 0;
+        }).sort((skill1, skill2) =>{
+            return skill1.degCon < skill2.degCon;
+        }).map((skill) => {
             return <tr key={skill.description}>
                 <td><Star degCon={skill.degCon}/> {skill.description}</td>
             </tr>;
