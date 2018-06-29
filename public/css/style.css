@@ -148,19 +148,38 @@ Accueil
     color: #757575;
 }
 
+.textStar{
+    color: #757575;
+    vertical-align: center;
+    text-align: center;
+    margin-left: 7%;
+}
+
 .skillTable tbody td {
     display: flex;
     justify-content: space-between;
 }
 
+.hidden{
+    display: none !important;
+}
 @media print
 {    
     .no-print, .no-print *
     {
         display: none !important;
     }
-
+    .hidden{
+        display: inherit !important;
+    }
     .divider {
         height: 3px;
+    }
+    html{
+        font-size: 13px;
+    }
+    .skillTable tbody td{
+        display : flex;
+        justify-content: space-around;
     }
 }
