@@ -10,7 +10,7 @@ class AccueilStore extends EventEmitter {
         this.description = [
             {
                 titre      : "Jean-Philippe ETRILLARD",
-                sousTitre  : "Référent technique Java/JS. Bac+5, 6 ans d'xp",
+                sousTitre  : "Référent technique Java. Bac+5, 7 ans d'xp",
                 paragraphes: [
                     "Lors de mon apprentissage au sein de Dassault Data Service, filiale de Dassault System j'ai acquis des compétences en administration système.",
                     "En 2013 j'ai intégré Cap Gemini pour m'orienter vers le développement. Grâce à plusieurs missions pour des clients grands comptes, j'ai pu monter en compétence et forger mon rôle de référent technique."

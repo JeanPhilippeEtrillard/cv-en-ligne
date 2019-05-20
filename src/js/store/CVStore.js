@@ -250,7 +250,7 @@ class CVStore extends EventEmitter {
                                 description: "Eclipse"
                             },
                             {
-                                degCon     : 2,
+                                degCon     : 3,
                                 description: "InteliJ"
                             },
                             {
